@@ -1,0 +1,6 @@
+[DllImport("NativePlugin")] static extern void InitializePassthrough(ulong xrInstance, ulong xrSession);
+[DllImport("NativePlugin")] static extern void StartPassthrough();
+[DllImport("NativePlugin")] static extern void PausePassthrough();
+[DllImport("NativePlugin")] static extern void SetTimeWarpDebug(int mode);
+[DllImport("NativePlugin")] static extern void InitializeHandTracking(ulong xrInstance);
+[DllImport("NativePlugin")] static extern void StartECGScan();
